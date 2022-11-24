@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	$conn = mysqli_connect("suryasssignment2.mysql.database.azure.com","SuryaAdmin","","smss_db");
+	$conn = mysqli_connect("suryasssignment2.mysql.database.azure.com","SuryaAdmin","Gundam@2017","smss_db");
 		if(!$conn)
 			{
 				die("Connection Failed" . mysqli_connect_error());
