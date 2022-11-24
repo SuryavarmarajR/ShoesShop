@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	$conn = mysqli_connect("localhost","root","","smss_db");
+	$conn = mysqli_connect("localhost","SuryaAdmin","","smss_db");
 		if(!$conn)
 			{
 				die("Connection Failed" . mysqli_connect_error());
