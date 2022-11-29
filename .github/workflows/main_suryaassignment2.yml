@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'SuryaAssignment2'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F295259A6E2742298CF575EEDEFAE2A1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_14040B45579340599E01399A6AD1D2AC }}
           package: .
